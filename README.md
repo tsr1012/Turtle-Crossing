@@ -1,10 +1,10 @@
-# Turtle Crossing Game
+# 🏁 Turtle Crossing Game 🐢
 
-## Overview
+## Overview 📄
 
 Turtle Crossing is a simple game built using Python's Turtle graphics module. The objective is to cross a busy road, avoiding traffic, and progressing through levels. The game features increasing difficulty as you complete levels, with faster-moving vehicles.
 
-## Gameplay
+## Gameplay 🎮
 
 - Use the **Up** and **Down** arrow keys to navigate your turtle through the traffic.
 - Press the **Escape** key to exit the game.
@@ -13,7 +13,7 @@ Turtle Crossing is a simple game built using Python's Turtle graphics module. Th
 - When all lives are lost, the game is over.
 - Each successful crossing completes a level, and the speed of vehicles increases.
 
-## Running the Game
+## Running the Game ▶️
 
 To play the game, run the main file:
 
@@ -21,19 +21,19 @@ To play the game, run the main file:
 python main.py
 ```
 
-## Dependencies
+## Dependencies ⚙️
 The game is built using Python's Turtle graphics module. No additional dependencies are required.
 
-## Author
+## Author 👨‍💻
 
 - [@tsr1012](https://github.com/tsr1012)
 
-## Preview
+## Preview 📸
 * Level 1 <br>
 ![level-1](screenshots/level-1.gif)
 
 
-* Increased difficulty on heigher level <br>
+* Increased difficulty on higher level <br>
 ![level-5](screenshots/level-5.gif)
 
 
@@ -43,8 +43,3 @@ The game is built using Python's Turtle graphics module. No additional dependenc
 
 * Game Over <br>
 ![game-over](screenshots/game-over.gif)
-
-
-
-
-

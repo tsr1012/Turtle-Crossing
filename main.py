@@ -1,5 +1,8 @@
 import turtle
 from turtle import Screen
+
+import _tkinter
+
 from player import Player
 from car_mnger import CarManager
 from scoreboard import Scoreboard
@@ -52,7 +55,12 @@ while game_is_on:
     t.sleep(0.1)
 
     car_manager.create_car()
-    car_manager.move_cars()
+
+    # Terminate game in case of unexpected error
+    try:
+        car_manager.move_cars()
+    except _tkinter.TclError:
+        exit()
 
     # Detect player collision with car
     for car in car_manager.all_cars:

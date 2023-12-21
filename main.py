@@ -1,12 +1,9 @@
-import turtle
-from turtle import Screen
-
 import _tkinter
-
+import time as t
+from turtle import Screen
 from player import Player
 from car_mnger import CarManager
 from scoreboard import Scoreboard
-import time as t
 
 
 def flash_effect():
@@ -27,7 +24,7 @@ def exit_game():
 
 
 scr = Screen()
-root = turtle.Screen()._root
+root = Screen()._root
 scr.setup(600, 600)
 scr.title("Turtle Crossing")
 root.iconbitmap("assets/logo.ico")

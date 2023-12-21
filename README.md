@@ -42,7 +42,7 @@ The game is built using Python's Turtle graphics module. No additional dependenc
 
 
 * Game Over <br>
-![game-over](screenshots/life-lost.gif)
+![game-over](screenshots/game-over.gif)
 
 
 

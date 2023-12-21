@@ -51,10 +51,9 @@ while game_is_on:
     scr.update()
     t.sleep(0.1)
 
-    car_manager.create_car()
-
     # Terminate game in case of unexpected error
     try:
+        car_manager.create_car()
         car_manager.move_cars()
     except _tkinter.TclError:
         exit()
